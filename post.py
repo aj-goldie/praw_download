@@ -1,6 +1,8 @@
 import praw
 from datetime import datetime
 
+# downloads a submission from praw
+
 
 def download(submission_url):
     reddit = praw.Reddit(
